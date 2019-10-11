@@ -1,14 +1,15 @@
 {
   "name": "@johinsdev/starwars-api",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "Get ramdon starwars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha index.test.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johinsDev/startwars-name.git"
+    "url": "https://github.com/johinsDev/startwars-name.git"
   },
   "keywords": [
     "random",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/johinsDev/startwars-name#readme",
   "dependencies": {
     "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.24"
   }
 }
