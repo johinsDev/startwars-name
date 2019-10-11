@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/johinsDev/startwars-name/issues"
   },
-  "homepage": "https://github.com/johinsDev/startwars-name#readme"
+  "homepage": "https://github.com/johinsDev/startwars-name#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
 }
