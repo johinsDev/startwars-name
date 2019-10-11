@@ -1,0 +1,24 @@
+{
+  "name": "starwars-api",
+  "version": "1.0.0",
+  "description": "Get ramdon starwars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johinsDev/startwars-name.git"
+  },
+  "keywords": [
+    "random",
+    "starwars",
+    "names"
+  ],
+  "author": "Johan Villamil <johinsdev@gmail.com> (http://johinsdev.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johinsDev/startwars-name/issues"
+  },
+  "homepage": "https://github.com/johinsDev/startwars-name#readme"
+}
