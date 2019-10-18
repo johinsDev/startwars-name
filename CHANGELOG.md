@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/johinsDev/startwars-name/compare/v1.1.0...v1.2.0) (2019-10-18)
+
+
+### Features
+
+* **pruebas:** pruebas ([53be9a6](https://github.com/johinsDev/startwars-name/commit/53be9a6e6b4e2837b26a671b3baf46c667800b75))
+
 # [1.1.0](https://github.com/johinsDev/startwars-name/compare/v1.0.0...v1.1.0) (2019-10-18)
 
 
