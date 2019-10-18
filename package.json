@@ -1,6 +1,6 @@
 {
   "name": "@johinsdev/starwars-api",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Get ramdon starwars names",
   "main": "src/index.js",
   "scripts": {
