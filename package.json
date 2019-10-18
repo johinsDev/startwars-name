@@ -28,6 +28,7 @@
     "unique-random-array": "2.0.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "cz-conventional-changelog": "^3.0.2",
     "semantic-release": "^15.13.24"
   },
