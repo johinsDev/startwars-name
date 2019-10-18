@@ -4,7 +4,8 @@
   "description": "Get ramdon starwars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha index.test.js",
+    "commit": "git-cz",
+    "test": "npx mocha index.test.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -23,9 +24,16 @@
   },
   "homepage": "https://github.com/johinsDev/startwars-name#readme",
   "dependencies": {
+    "commitizen": "^4.0.3",
     "unique-random-array": "2.0.0"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2",
     "semantic-release": "^15.13.24"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
