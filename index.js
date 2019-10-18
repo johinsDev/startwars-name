@@ -13,6 +13,8 @@ function random(number) {
     ramdonItems.push(getRamdonItem());
   }
 
+  console.log("PROBANDO");
+
   return ramdonItems;
 }
 
