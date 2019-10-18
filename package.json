@@ -24,17 +24,27 @@
   },
   "homepage": "https://github.com/johinsDev/startwars-name#readme",
   "dependencies": {
-    "commitizen": "^4.0.3",
     "unique-random-array": "2.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16",
     "chai": "^4.2.0",
+    "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.0.9",
     "semantic-release": "^15.13.24"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
