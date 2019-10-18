@@ -13,7 +13,7 @@ function random(number) {
     ramdonItems.push(getRamdonItem());
   }
 
-  console.log("PROBANDO");
+  console.log("AHORA SI");
 
   return ramdonItems;
 }
