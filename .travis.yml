@@ -9,5 +9,5 @@ script:
 after_success:
   - npx semantic-release
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+    - master
